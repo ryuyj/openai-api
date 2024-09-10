@@ -1,0 +1,22 @@
+{"messages": 
+    [
+        {
+            "role": "system", 
+            "content": "스포츠 헤드라인이 주어지면 해당되는 경우 JSON 딕셔너리에 다음 필드를 입력합니다: \"선수\"(전체 이름), "팀\", "종목\", "성별\"."}, 
+        {
+            "role": "user", 
+            "content": "출처: 콜츠, RB 테일러에게 트레이드를 허락하다 "}, 
+        {
+            "role": "assistant", 
+            "content": "{\"player\": \"조나단 테일러\", \"팀\": \"콜츠\", \"스포츠\": \"축구\", \"성별\": \"male\" }"}
+    ]
+}
+{"messages": 
+    [
+        {"role": "system", "content": "스포츠 헤드라인이 주어지면 해당되는 경우 JSON 딕셔너리에 다음 필드를 입력합니다: \"선수\"(전체 이름), "팀\", "종목\", "성별\"."}, 
+        {"role": "user", "content": "선발 QB 싸움에서 '가운데로 갈라진' OSU "}, 
+        {"role": "assistant", "content": "{\"player\": null, \"team\": \"OSU\", \"sport\": \"축구\", \"성별\": null }"}
+    ]
+}  
+
+

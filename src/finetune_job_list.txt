@@ -1,0 +1,25 @@
+
+SyncCursorPage[FineTuningJob](data=[
+    FineTuningJob(
+        id='ftjob-DCh8YNolLYtic4HYoesNiiCz', 
+        created_at=1724995609, 
+        error=Error(code=None, message=None, param=None), 
+        fine_tuned_model='ft:gpt-3.5-turbo-0125:personal::A1oYG3JX', 
+        finished_at=1724996010, 
+        hyperparameters=Hyperparameters(n_epochs=10, batch_size=1, learning_rate_multiplier=2), 
+        model='gpt-3.5-turbo-0125', 
+        object='fine_tuning.job', 
+        organization_id='org-haivZ0o3w8jcmKUDdTiifOb4', 
+        result_files=['file-EtiNDB7UNEkylGI084B9kbnQ'], 
+        seed=1384454163, 
+        status='succeeded', 
+        trained_tokens=8620, 
+        training_file='file-KyQSZeoReChtgdFWXhTDcwHo', 
+        validation_file=None, 
+        estimated_finish=None, 
+        integrations=[], 
+        user_provided_suffix=None), 
+    FineTuningJob(id='ftjob-y4SCxpncpUc8qRg23TqzUPwK', created_at=1724995467, error=Error(code=None, message=None, param=None), fine_tuned_model=None, finished_at=None, hyperparameters=Hyperparameters(n_epochs=10, batch_size=1, learning_rate_multiplier=2), model='gpt-3.5-turbo-0125', object='fine_tuning.job', organization_id='org-haivZ0o3w8jcmKUDdTiifOb4', result_files=[], seed=1711504626, status='cancelled', trained_tokens=None, training_file='file-602A2GW0KDqt9T7o9jSIn8lq', validation_file=None, estimated_finish=None, integrations=[], user_provided_suffix=None), 
+    FineTuningJob(id='ftjob-6dRjUDByxaYA7ouxLzDJZyLt', created_at=1724995414, error=Error(code=None, message=None, param=None), fine_tuned_model=None, finished_at=None, hyperparameters=Hyperparameters(n_epochs=10, batch_size=1, learning_rate_multiplier=2), model='gpt-3.5-turbo-0125', object='fine_tuning.job', organization_id='org-haivZ0o3w8jcmKUDdTiifOb4', result_files=[], seed=190199796, status='cancelled', trained_tokens=None, training_file='file-E86jj0o4X82h9H6NNr2KAKxD', validation_file=None, estimated_finish=1724996501, integrations=[], user_provided_suffix=None), 
+    FineTuningJob(id='ftjob-EN7NBWynTqF3FmexMXRnSYtH', created_at=1724995260, error=Error(code='invalid_training_file', message='The job failed due to an invalid training file. Invalid file format. Input file file-jPRenGVyyMNEHfnnvngQvtVD is in the prompt-completion format, but the specified model gpt-3.5-turbo-0125 is a chat model and requires chat-formatted data. See https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset for details.', param='training_file'), fine_tuned_model=None, finished_at=None, hyperparameters=Hyperparameters(n_epochs='auto', batch_size='auto', learning_rate_multiplier='auto'), model='gpt-3.5-turbo-0125', object='fine_tuning.job', organization_id='org-haivZ0o3w8jcmKUDdTiifOb4', result_files=[], seed=640187789, status='failed', trained_tokens=None, training_file='file-jPRenGVyyMNEHfnnvngQvtVD', validation_file=None, estimated_finish=None, integrations=[], user_provided_suffix=None), 
+    FineTuningJob(id='ftjob-TVMtWNEn4GNI2auWT9YYXfhd', created_at=1724994797, error=Error(code='invalid_training_file', message='The job failed due to an invalid training file. Expected file to have JSONL format, where every line is a valid JSON dictionary. Line 1 is not a dictionary.', param='training_file'), fine_tuned_model=None, finished_at=None, hyperparameters=Hyperparameters(n_epochs='auto', batch_size='auto', learning_rate_multiplier='auto'), model='gpt-3.5-turbo-0125', object='fine_tuning.job', organization_id='org-haivZ0o3w8jcmKUDdTiifOb4', result_files=[], seed=1447436132, status='failed', trained_tokens=None, training_file='file-M96cvoCKnJ1DiSL6PnygGOW3', validation_file=None, estimated_finish=None, integrations=[], user_provided_suffix=None)], object='list', has_more=False)
