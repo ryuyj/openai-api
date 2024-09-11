@@ -1,3 +1,5 @@
 {
-    "python.analysis.typeCheckingMode": "basic"
+    "workbench.colorTheme": "Default Dark Modern",
+    "editor.fontSize": 16,
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
 }
